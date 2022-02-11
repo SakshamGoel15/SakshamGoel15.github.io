@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.db4f09ec.chunk.css",
-    "main.js": "/static/js/main.498e21ca.chunk.js",
-    "main.js.map": "/static/js/main.498e21ca.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3eb48193.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3eb48193.js.map",
-    "static/css/2.e5720bf9.chunk.css": "/static/css/2.e5720bf9.chunk.css",
-    "static/js/2.6cc25833.chunk.js": "/static/js/2.6cc25833.chunk.js",
-    "static/js/2.6cc25833.chunk.js.map": "/static/js/2.6cc25833.chunk.js.map",
-    "static/js/3.12637547.chunk.js": "/static/js/3.12637547.chunk.js",
-    "static/js/3.12637547.chunk.js.map": "/static/js/3.12637547.chunk.js.map",
+    "main.js": "/static/js/main.cfb8a1c4.chunk.js",
+    "main.js.map": "/static/js/main.cfb8a1c4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.26281d4e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.26281d4e.js.map",
+    "static/css/2.b06bf9a2.chunk.css": "/static/css/2.b06bf9a2.chunk.css",
+    "static/js/2.50af6a33.chunk.js": "/static/js/2.50af6a33.chunk.js",
+    "static/js/2.50af6a33.chunk.js.map": "/static/js/2.50af6a33.chunk.js.map",
+    "static/js/3.0c6c6f18.chunk.js": "/static/js/3.0c6c6f18.chunk.js",
+    "static/js/3.0c6c6f18.chunk.js.map": "/static/js/3.0c6c6f18.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.e5720bf9.chunk.css.map": "/static/css/2.e5720bf9.chunk.css.map",
+    "static/css/2.b06bf9a2.chunk.css.map": "/static/css/2.b06bf9a2.chunk.css.map",
     "static/css/main.db4f09ec.chunk.css.map": "/static/css/main.db4f09ec.chunk.css.map",
-    "static/js/2.6cc25833.chunk.js.LICENSE.txt": "/static/js/2.6cc25833.chunk.js.LICENSE.txt",
+    "static/js/2.50af6a33.chunk.js.LICENSE.txt": "/static/js/2.50af6a33.chunk.js.LICENSE.txt",
     "static/media/Profile.css": "/static/media/28F9914C-90D2-44C7-90C2-C7B68AF3ADD2.2a73fced.jpeg",
     "static/media/AboutMe.css": "/static/media/Aboutme.568e1b0a.png",
     "static/media/BachlorsDegree.jpg": "/static/media/BachlorsDegree.36cd1216.jpg",
@@ -34,10 +34,10 @@
     "static/media/work-history.svg": "/static/media/work-history.a566475d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3eb48193.js",
-    "static/css/2.e5720bf9.chunk.css",
-    "static/js/2.6cc25833.chunk.js",
+    "static/js/runtime-main.26281d4e.js",
+    "static/css/2.b06bf9a2.chunk.css",
+    "static/js/2.50af6a33.chunk.js",
     "static/css/main.db4f09ec.chunk.css",
-    "static/js/main.498e21ca.chunk.js"
+    "static/js/main.cfb8a1c4.chunk.js"
   ]
 }
