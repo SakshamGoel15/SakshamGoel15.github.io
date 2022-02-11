@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db4f09ec.chunk.css",
+    "main.js": "/static/js/main.498e21ca.chunk.js",
+    "main.js.map": "/static/js/main.498e21ca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3eb48193.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3eb48193.js.map",
+    "static/css/2.e5720bf9.chunk.css": "/static/css/2.e5720bf9.chunk.css",
+    "static/js/2.6cc25833.chunk.js": "/static/js/2.6cc25833.chunk.js",
+    "static/js/2.6cc25833.chunk.js.map": "/static/js/2.6cc25833.chunk.js.map",
+    "static/js/3.12637547.chunk.js": "/static/js/3.12637547.chunk.js",
+    "static/js/3.12637547.chunk.js.map": "/static/js/3.12637547.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e5720bf9.chunk.css.map": "/static/css/2.e5720bf9.chunk.css.map",
+    "static/css/main.db4f09ec.chunk.css.map": "/static/css/main.db4f09ec.chunk.css.map",
+    "static/js/2.6cc25833.chunk.js.LICENSE.txt": "/static/js/2.6cc25833.chunk.js.LICENSE.txt",
+    "static/media/Profile.css": "/static/media/28F9914C-90D2-44C7-90C2-C7B68AF3ADD2.2a73fced.jpeg",
+    "static/media/AboutMe.css": "/static/media/Aboutme.568e1b0a.png",
+    "static/media/BachlorsDegree.jpg": "/static/media/BachlorsDegree.36cd1216.jpg",
+    "static/media/EXPECTED.jpg": "/static/media/EXPECTED.03ac6256.jpg",
+    "static/media/Mail2.77308194.jpg": "/static/media/Mail2.77308194.jpg",
+    "static/media/index.css": "/static/media/Poppins-Thin.a61eaf4c.ttf",
+    "static/media/The Hong Kong University of Science and Technology.c2ec20d9.png": "/static/media/The Hong Kong University of Science and Technology.c2ec20d9.png",
+    "static/media/UdemyIcon.bf088e41.png": "/static/media/UdemyIcon.bf088e41.png",
+    "static/media/Unavailable.jpg": "/static/media/Unavailable.5285478a.jpg",
+    "static/media/Testimonial.css": "/static/media/bg-1.e7a118c3.jpg",
+    "static/media/Home.css": "/static/media/bg.a11b380c.jpg",
+    "static/media/certificateImg.jpg": "/static/media/certificateImg.38d94fdc.jpg",
+    "static/media/education.svg": "/static/media/education.10cfa28a.svg",
+    "static/media/interests.svg": "/static/media/interests.809890a3.svg",
+    "static/media/logo2.d48f1456.png": "/static/media/logo2.d48f1456.png",
+    "static/media/programming-skills.svg": "/static/media/programming-skills.d19983a9.svg",
+    "static/media/projects.svg": "/static/media/projects.2b352a52.svg",
+    "static/media/work-history.svg": "/static/media/work-history.a566475d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3eb48193.js",
+    "static/css/2.e5720bf9.chunk.css",
+    "static/js/2.6cc25833.chunk.js",
+    "static/css/main.db4f09ec.chunk.css",
+    "static/js/main.498e21ca.chunk.js"
+  ]
+}
