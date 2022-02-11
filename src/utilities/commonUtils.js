@@ -5,7 +5,7 @@ import Certificate from "../my_website/Testimonial/Testimonial";
 import ContactMe from "../my_website/ContactMe/ContactMe";
 import Project from "../my_website/Project/Project";
 import Experience from "../my_website/Experience/Experience";
-import Interest from "../my_website/Interest/Interest"
+import Interest from "../my_website/Interest/Interest";
 // import { faCertificate } from "@fortawesome/free-solid-svg-icons";
 
 export const TOTAL_SCREENS = [
@@ -14,7 +14,7 @@ export const TOTAL_SCREENS = [
     Component: Home,
   },
   {
-    screen_name: "AboutMe",
+    screen_name: "About Me",
     Component: AboutMe,
   },
   {
@@ -38,12 +38,10 @@ export const TOTAL_SCREENS = [
     Component: Interest,
   },
   {
-    screen_name: "ContactMe",
+    screen_name: "Contact Me",
     Component: ContactMe,
   },
-   
 ];
-
 
 export const GET_SCREEN_INDEX = (screen_name) => {
   if (!screen_name) return -1;
