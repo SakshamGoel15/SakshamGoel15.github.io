@@ -1,0 +1,175 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* height: 100vh; */
+  /* width: 100vh; */
+}
+
+.Button {
+  /* min-width: 100px; */
+  /* padding: 16px 32px; */
+  /* border-radius: 4px; */
+  border: white;
+  background: #fff;
+  color: #b5651d;
+  font-size: 15px;
+  cursor: pointer;
+  font-style: italic;
+}
+.Container .Certificate {
+  visibility: visible;
+  color: #b5651d;
+  font-size: 25px;
+  /* padding: 15px; */
+   margin-left: 0px;
+    /*margin-bottom: 8px; */
+}
+
+.Button:focus {
+  outline: none ;
+}
+
+.ModalImg {
+  width: 90%;
+  height: 90%;
+  /* border-radius: 10px 0 0 10px; */
+  background: #fff;
+  border-radius: 100px;
+  /* font-size: 60px; */
+}
+.CloseModalButton {
+  /* = styled(MdClose)`} */
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  z-index: 10;
+  border: #fff;
+  background-color: #fff;
+}
+.ModalWrapper {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+  /* background: #000; */
+  /* color: #000; */
+  /* display: grid; */
+  /* // grid-template-columns: 1fr 1fr; */
+  position: relative;
+  /* z-index: 10; */
+  /* border-radius: 100px; */
+}
+.Icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center;  */
+}
+.Certificate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Heading {
+  width: 90%;
+}
+.cross {
+  display: flex;
+  justify-content: end;
+  /* margin-left: 100px; */
+}
+.Icon i {
+  color: Black;
+  font-size: 30px;
+}
+
+.crossbutton {
+  width: 10%;
+  height: 10%;
+  background-color: white;
+  border: white;
+}
+.Image {
+  display: flex;
+  justify-content: center;
+}
+.crossbutton:focus {
+  outline: white auto 5px;
+}
+
+
+/* //button */
+
+.acertimediaSpan{
+  /* color: #fff; */
+  display: inline-block;
+  /* padding: 10px 10px 10px 10px; */
+}
+
+.acertiwrapper {
+  display: inline-flex;
+ 
+} 
+.acertiwrapper .acertiicon p {
+  font-size: 16px;
+  line-height: 26px;
+  /* font-weight: 400; */
+  margin: 0;
+  color:#b5651d;
+}
+.acertiwrapper .acertiicon {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.acertiwrapper .acertitooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  /* color: #ffffff; */
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.acertiwrapper .acertitooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.acertiwrapper .acertiicon:hover .acertitooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  /* width: 80px; */
+}
+
+.acertiwrapper .acertiicon:hover span,
+.acertiwrapper .acertiicon:hover .acertitooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.acertiwrapper .acertiblog:hover,
+.acertiwrapper .acertiblog:hover .acertitooltip,
+.acertiwrapper .acertiblog:hover .acertitooltip::before {
+  /* background-color: #3b5999; */
+  color: black;
+}

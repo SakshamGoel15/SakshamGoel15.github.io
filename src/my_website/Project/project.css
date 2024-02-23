@@ -1,0 +1,65 @@
+.Language {
+  color: #1f2235;
+  font-weight: 500px;
+  font-style: italic;
+  margin: 0;
+}
+.Language p {
+  margin: 0%;
+}
+.lprofile-options {
+  display: flex;
+  flex-direction: row;
+
+  /* width: 100%; */
+}
+
+.lprofile-options .highlighted-btn {
+  /* margin: 0 0 0 28px; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 130px;
+  background-color: #b5651d;
+  columns: #111;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1110px) {
+  .about-me-parent {
+    width: 90%;
+    /* height: 100% */
+  }
+}
+@media only screen and (max-width: 898px) {
+  .about-me-profile {
+    display: none;
+  }
+  .about-me-details {
+    width: 100%;
+  }
+  .lprofile-options .highlighted-btn {
+    height: 30px;
+    width: 95px;
+  }
+}
+@media only screen and (max-width: 466px) {
+  .about-me-options {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .about-me-options .highlighted-btn {
+    margin: 24px 0 0 0 !important;
+  }
+  .about-me-options button {
+    width: 100%;
+  }
+}
+
+
+.vertical-timeline-element-content {
+  /* other styles */
+  padding: 0;
+}

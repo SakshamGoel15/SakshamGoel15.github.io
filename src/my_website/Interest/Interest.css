@@ -1,0 +1,76 @@
+.Interest-about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  /* padding: 40px 0 0 0; */
+  /* background-color: #1f2235; */
+}
+.Interest-about-me-parent {
+  max-width: 1000px;
+  width: 70%;
+  background-color: white;
+}
+.Interest-about-me-card {
+  display: flex;
+  width: 100%;
+  box-shadow: 0 0px 20px -2px #1f2235;
+  background-color: white;
+}
+
+.Interest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  align-items: center;
+
+  /* justify-content: space-evenly; */
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.InterestWrapper {
+  margin: auto;
+  margin-top: 30px;
+}
+.InterestIcon {
+  visibility: visible;
+  color: white;
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  /* padding:-9px; */
+  /* padding: 15px; */
+  /* margin-left: 4px; */
+  /* margin-bottom: 8px; */
+}
+.InterestName {
+  color: white;
+  /* align-items:center; */
+
+  font-size: 23px;
+}
+
+.Interest-about-me-details {
+  width: 100%;
+  text-align: justify;
+  padding: 30px;
+}
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .Interest-about-me-parent {
+    width: 90%;
+    /* height: 100% */
+  }
+}
+@media only screen and (max-width: 898px) {
+  .Interest-about-me-profile {
+    display: none;
+  }
+  .Interest-about-me-details {
+    width: 100%;
+  }
+}
