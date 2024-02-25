@@ -54,49 +54,77 @@ const Resume = (props) => {
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Technologies Skills", logoSrc: "projects.svg" },
     { label: "Database Skills", logoSrc: "interests.svg" },
+    { label: "Developer Tools", logoSrc: "interests.svg" },
+    { label: "Methodologies and OS", logoSrc: "interests.svg" }
+    
   ];
 
   //here we have
   const programmingSkillsDetails = [
     { skill: "Java", ratingPercentage: 77 },
-
     { skill: "JavaScript", ratingPercentage: 85 },
-    { skill: "Python", ratingPercentage: 65 },
-    { skill: "PHP", ratingPercentage: 75 },
-    { skill: "SQL", ratingPercentage: 70 },
-    { skill: "F#", ratingPercentage: 85 },
+    { skill: "Typescript", ratingPercentage: 85 },
     { skill: "HTML", ratingPercentage: 90 },
     { skill: "CSS", ratingPercentage: 90 },
+    { skill: "Python", ratingPercentage: 65 },
+    { skill: "PHP", ratingPercentage: 85 },
+    { skill: "SQL", ratingPercentage: 90 },
+    { skill: "C/C++", ratingPercentage: 80 },
+    { skill: "F#", ratingPercentage: 80 },
+    
+      
   ];
   const technologiesSkillsDetails = [
-    { skill: "React JS", ratingPercentage: 80 },
-    { skill: "React Native", ratingPercentage: 80 },
-    { skill: "Redux", ratingPercentage: 75 },
+    { skill: "React JS", ratingPercentage: 90 },
+    { skill: "React Native", ratingPercentage: 90 },
+    { skill: "Redux", ratingPercentage: 85 },
     { skill: "GraphQL", ratingPercentage: 90 },
     { skill: "WordPress", ratingPercentage: 85 },
-    { skill: "Express JS", ratingPercentage: 70 },
-    { skill: "Node JS", ratingPercentage: 70 },
+    { skill: "Express JS", ratingPercentage: 80 },
+    { skill: "Node JS", ratingPercentage: 80 },
+    { skill: "WordPress", ratingPercentage: 90 },
+    { skill: "JSON", ratingPercentage: 90 },
+    { skill: "jQuery", ratingPercentage: 90 },
+    { skill: "AWS", ratingPercentage: 90 },
+    { skill: "XML", ratingPercentage: 90 },
+    { skill: "AJAX", ratingPercentage: 90 },
   ];
   const databaseSkillsDetails = [
     { skill: "MYSQL", ratingPercentage: 70 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
+    { skill: "MongoDb", ratingPercentage: 70 },
     { skill: "Firebase", ratingPercentage: 85 },
+    { skill: "Oracle", ratingPercentage: 85 },
   ];
+  const DeveloperToolsSkillsDetails = [
+    { skill: "Postman", ratingPercentage: 70 },
+    { skill: "Git", ratingPercentage: 70 },
+    { skill: "Figma", ratingPercentage: 85 },
+    { skill: "Adobe Illustrator", ratingPercentage: 85 },
+    { skill: "Visual Studio Code", ratingPercentage: 95 },
 
+  ];
+  const MethodologyAndOSSkillsDetails = [
+    { skill: "Agile", ratingPercentage: 70 },
+    { skill: "Waterfall", ratingPercentage: 70 },
+    { skill: "scrum", ratingPercentage: 85 },
+    { skill: "SDLC", ratingPercentage: 85 },
+    { skill: "Windows/MacOS/Linux", ratingPercentage: 95 },
+
+  ];
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"University of Florida, USA"}
-        subHeading={"MASTER'S OF COMPUTER SCIENCE & ENGINEERING"}
-        fromDate={"MAY 2021"}
-        toDate={"Current"}
+        subHeading={"MASTER'S OF COMPUTER SCIENCE"}
+        fromDate={"May 2021"}
+        toDate={"Dec 2022"}
        // certificate={"EXPECTED.jpg"}
-        CGPA={"3.83/4"}
+        CGPA={"3.86/4"}
       />
 
       <ResumeHeading
         heading={"University of Florida, USA"}
-        subHeading={"SENIOR CERTIFICATE IN COMPUTER SCIENCE & ENGINEERING"}
+        subHeading={"SENIOR CERTIFICATE IN COMPUTER SCIENCE"}
         fromDate={"Jan 2021"}
         toDate={"May 2021"}
         //certificate={"certificateImg.jpg"}
@@ -203,6 +231,43 @@ const Resume = (props) => {
         </div>
       ))}
     </div>,
+    /* Developer Tools */
+    <div
+      className="resume-screen-container programming-skills-container-database"
+      key="programming-skills"
+    >
+      {DeveloperToolsSkillsDetails.map((skill, index) => (
+        <div className="skill-parent" key={index}>
+          <div className="heading-bullet"></div>
+          <span>{skill.skill}</span>
+          <div className="skill-percentage">
+            <div
+              style={{ width: skill.ratingPercentage + "%" }}
+              className="active-percentage-bar"
+            ></div>
+          </div>
+        </div>
+      ))}
+    </div>,
+
+        /* Methodologies and OS Skills */
+        <div
+        className="resume-screen-container programming-skills-container"
+        key="programming-skills"
+      >
+        {MethodologyAndOSSkillsDetails.map((skill, index) => (
+          <div className="skill-parent" key={index}>
+            <div className="heading-bullet"></div>
+            <span>{skill.skill}</span>
+            <div className="skill-percentage">
+              <div
+                style={{ width: skill.ratingPercentage + "%" }}
+                className="active-percentage-bar"
+              ></div>
+            </div>
+          </div>
+        ))}
+      </div>,
 
     /* PROJECTS */
     // <div className="resume-screen-container" key="projects">

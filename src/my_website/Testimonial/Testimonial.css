@@ -144,6 +144,7 @@ font-size: 15px;
   line-height: 20px;
   margin-left: 10px;
   margin-bottom: 2px;
+  margin-top: 0;
   color: #2e324d;
 }
 .testimonial-section .client-info p {
@@ -239,7 +240,7 @@ font-size: 15px;
 }
 
 /*IPAD PRO RESPONSIVENESS*/
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1270px) {
   .testimonial-section .testi-comment {
     /* margin: 0 0 20px; */
     /* display: flex; */
@@ -259,7 +260,7 @@ font-size: 15px;
     justify-content: flex-start;
     align-items: center;
    /* width: 100%; */
-   margin: 20px;
+   /* margin: 20px; */
   }
   .testimonial-section .testi-item {
     background-color: white;
