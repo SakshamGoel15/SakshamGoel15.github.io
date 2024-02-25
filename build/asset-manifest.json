@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e2f20c0.css",
+    "main.js": "/static/js/main.fd4ea528.js",
+    "static/js/488.43dec6d5.chunk.js": "/static/js/488.43dec6d5.chunk.js",
+    "static/media/Aboutme.png": "/static/media/Aboutme.568e1b0aeb113381fc75.png",
+    "static/media/Mail2.jpg": "/static/media/Mail2.77308194e20ca4a40840.jpg",
+    "static/media/EXPECTED.jpg": "/static/media/EXPECTED.03ac6256e4b2bf8dc96e.jpg",
+    "static/media/BachlorsDegree.jpg": "/static/media/BachlorsDegree.36cd1216dafcc7fa5576.jpg",
+    "static/media/certificateImg.jpg": "/static/media/certificateImg.38d94fdc0b33d90ec54c.jpg",
+    "static/media/bg-1.jpg": "/static/media/bg-1.e7a118c397efc44bbf9e.jpg",
+    "static/media/logo2.png": "/static/media/logo2.d48f1456c246b925c9f0.png",
+    "static/media/Unavailable.jpg": "/static/media/Unavailable.5285478a6f138bb96c9c.jpg",
+    "static/media/28F9914C-90D2-44C7-90C2-C7B68AF3ADD2.jpeg": "/static/media/28F9914C-90D2-44C7-90C2-C7B68AF3ADD2.2a73fced70c9c60a846e.jpeg",
+    "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/bg.jpg": "/static/media/bg.a11b380cc0df7f1d632d.jpg",
+    "static/media/UdemyIcon.png": "/static/media/UdemyIcon.bf088e41b91a3c317b6a.png",
+    "static/media/The Hong Kong University of Science and Technology.png": "/static/media/The Hong Kong University of Science and Technology.c2ec20d95d7cf9fc04e6.png",
+    "static/media/programming-skills.svg": "/static/media/programming-skills.d19983a9bee884277ffa.svg",
+    "static/media/projects.svg": "/static/media/projects.2b352a52b0588dab62f5.svg",
+    "static/media/interests.svg": "/static/media/interests.809890a3e4fb0938f61b.svg",
+    "static/media/education.svg": "/static/media/education.10cfa28a40119ebd70cf.svg",
+    "static/media/work-history.svg": "/static/media/work-history.a566475dedb99dea4bb8.svg",
+    "index.html": "/index.html",
+    "main.4e2f20c0.css.map": "/static/css/main.4e2f20c0.css.map",
+    "main.fd4ea528.js.map": "/static/js/main.fd4ea528.js.map",
+    "488.43dec6d5.chunk.js.map": "/static/js/488.43dec6d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e2f20c0.css",
+    "static/js/main.fd4ea528.js"
+  ]
+}
